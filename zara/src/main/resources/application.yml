@@ -1,0 +1,11 @@
+# Configuración de los endpoints completos
+similars:
+  api:
+    url: http://localhost:3001/product/{productId}/similarids
+product:
+  api:
+    url: http://localhost:3001/product/{productId}
+
+
+server:
+    port : 5000
